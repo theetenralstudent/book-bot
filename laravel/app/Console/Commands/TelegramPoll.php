@@ -168,7 +168,7 @@ class TelegramPoll extends Command
                 $telegram->sendMessage([
                     'chat_id' => $chatId,
                     'text' => "Бот предназначен для поиска книг\n\n"
-                            . "Используйте /search [запрос] для поиска книг\n"
+                            . "Используйте /search [запрос для поиска книг]\n"
                             . "Например: /search Гарри Поттер"
                 ]);
                 break;
